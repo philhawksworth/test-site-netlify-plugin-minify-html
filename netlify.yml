@@ -5,7 +5,7 @@ build:
 # Netlify build plugins
 plugins:
   # Path to plugin. Can be local relative path or reference to node_modules
-  - package: ../netlify-plugin-minify-html/index.js
+  - package: netlify-plugin-minify-html
     config:
       # Builds in which deploy contexts will get minified?
       # [production, deploy-preview, branch-deploy]
