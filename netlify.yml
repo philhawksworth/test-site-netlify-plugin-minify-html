@@ -11,9 +11,8 @@ plugins:
       # [production, deploy-preview, branch-deploy]
       targets:
         - production
-        - deploy-preview
         - branch-deploy
+        # - deploy-preview
       minifierOptions:
         - removeComments: true
-        - minifyCSS: true
-        - removeEmptyElements: true
+        - collapseInlineTagWhitespace: false
