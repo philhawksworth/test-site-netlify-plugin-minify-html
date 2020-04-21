@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
-    "netlify-plugin-minify-html": "^0.1.0"
+    "netlify-plugin-minify-html": "^0.2.1"
   }
 }
