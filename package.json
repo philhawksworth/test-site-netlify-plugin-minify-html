@@ -10,8 +10,7 @@
   "author": "Phil Hawksworth",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^0.10.0",
-    "glob": "^7.1.6",
+    "@11ty/eleventy": "^0.11.0",
     "netlify-plugin-minify-html": "^0.2.3"
   }
 }
