@@ -2,6 +2,9 @@
   command = "npm run build"
 
 
+[[plugins]]
+  package = "@netlify/plugin-local-install-core"
+
 # Config for the Netlify Build Plugin: netlify-plugin-minify-html
 [[plugins]]
   package = "netlify-plugin-minify-html"
